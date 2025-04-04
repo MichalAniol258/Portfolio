@@ -1,8 +1,8 @@
-import Slider from './components/slides'
+import Slides from './components/slides'
 export default function Home() {
   return (
     <div className="">
-      <Slider></Slider>
+      <Slides />
 
     </div>
   );

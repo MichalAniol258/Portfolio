@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-export default () => {
+export default function Slides() {
   return (
     <Swiper
       direction="vertical" // domyślnie pionowo
