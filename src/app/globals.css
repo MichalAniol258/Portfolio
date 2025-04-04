@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+
+
+body {
+  font-family: 'Inter';
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: oklch(70.7% 0.022 261.325) !important;
+}
+
+
+.swiper-pagination-bullet {
+  background: oklch(70.7% 0.022 261.325) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: oklch(70.7% 0.022 261.325) !important;
+}
+
+.swiper-scrollbar-drag {
+  background-color: oklch(70.7% 0.022 261.325) !important;
+}
+
+.swiper-horizontal>.swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  background-color: oklch(20.8% 0.042 265.755) !important;
+}
+
+
+@media (min-width: 768px) and (max-width: 1399px) {
+  .cosik {
+    rotate: 270deg !important;
+    bottom: 150px !important;
+    left: 60px;
+  }
+
+
+  .header {
+    margin: 0 !important;
+    font-size: 72px !important;
+  }
+
+  .header2 {
+    padding-left: 0 !important;
+    padding-top: 9.2rem;
+    font-size: 62px !important;
+    rotate: 270deg !important;
+  }
+}
+
+@media (max-height: 768px) and (max-width: 420px) {
+
+  .cosik h1,
+  .cosik p {
+    font-size: 10px;
+  }
+
+  .header2 {
+
+    font-size: 40px;
+  }
+
+  .header {
+    font-size: 50px;
+  }
+
+  .cosik {
+    left: 50px;
+  }
+
+
+  .headerset {
+    padding-left: 1rem;
+    padding-top: 6rem;
+  }
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1399px) {
+  .cosik {
+    rotate: 270deg !important;
+    bottom: 260px !important;
+    max-width: 900px !important;
+    left: -50px;
+  }
+
+  .cosik h1,
+  .cosik p {
+    font-size: 28px !important;
+  }
+
+  .headerset {
+    padding-top: 3rem !important;
+  }
+
+
+  .header {
+    margin-right: 2rem !important;
+    margin: 0;
+    font-size: 96px !important;
+  }
+
+  .header2 {
+    padding-left: 0 !important;
+    padding-top: 9.2rem;
+    font-size: 86px !important;
+    rotate: 270deg !important;
+  }
+}
+
+
+@media (min-width: 500px) and (max-width: 720px) {
+  .cosik {
+    padding-left: 0;
+  }
+
+
+
+
+
+}
