@@ -18,20 +18,25 @@
 
 
 .swiper-pagination-bullet {
-  background: oklch(70.7% 0.022 261.325) !important;
+  background: linear-gradient(to right, #bfdbfe, #fef08a) !important;
 }
 
 .swiper-pagination-bullet-active {
-  background: oklch(70.7% 0.022 261.325) !important;
+  background: linear-gradient(to right, #bfdbfe, #fef08a) !important;
 }
 
 .swiper-scrollbar-drag {
-  background-color: oklch(70.7% 0.022 261.325) !important;
+  background: linear-gradient(to right, #bfdbfe, #fef08a) !important;
 }
 
 .swiper-horizontal>.swiper-scrollbar,
 .swiper-scrollbar.swiper-scrollbar-horizontal {
-  background-color: oklch(20.8% 0.042 265.755) !important;
+  /*  background-color: oklch(20.8% 0.042 265.755) !important;
+
+  background: linear-gradient(to right, #bfdbfe, #fef08a);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: #111827 !important;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 

@@ -5,8 +5,8 @@ export default function SlideCon() {
     <div className="flex min-h-screen bg-gray-950">
       {/* Sekcja tekstowa */}
       <div className="flex text-gray-400 items-center pl-[6rem] pt-[6rem] max-md:pl-[2rem] max-md:pt-[10rem] max-md:items-start  headerset  w-1/2">
-        <h1 className="text-8xl max-md:text-6xl header w-[0px] font-[850]  m-[2rem] mt-[200px] rotate-270 whitespace-nowrap ">MichalAniol</h1>
-        <p className="text-[86px] max-md:text-[50px] header2 w-[0px] font-[850] pt-[6.2rem] pl-[1rem] max-md:mt-[9.45rem] max-md:ml-[-1.5rem]  max-md:rotate-270 whitespace-nowrap">
+        <h1 className="text-8xl text-blue-200 max-md:text-6xl header w-[0px] font-[850]  m-[2rem] mt-[200px] rotate-270 whitespace-nowrap ">MichalAniol</h1>
+        <p className="text-[86px]  text-yellow-200 max-md:text-[50px] header2 w-[0px] font-[850] pt-[6.2rem] pl-[1rem] max-md:mt-[9.45rem] max-md:ml-[-1.5rem]  max-md:rotate-270 whitespace-nowrap">
           PORTFOLIO
         </p>
       </div>
@@ -15,8 +15,8 @@ export default function SlideCon() {
           MichalAniol
         </h1>
         <p className=" text-sm font-light mt-2  leading-relaxed">
-          Tworzę z pasją i precyzją, dostosowując każdą linię kodu do Twoich potrzeb.
-          Minimalizm, który przemawia. Prostota, która zachwyca.
+          I create with passion and precision, tailoring each line of code to your needs.
+          Minimalism that appeals. Simplicity that delights.
         </p>
       </div>
 
