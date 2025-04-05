@@ -3,6 +3,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SlideCon from './slideCon';
 import SlideCon2 from './slideCon2';
+import AudioPlayer from './AudioPlayer';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -33,6 +34,7 @@ export default function Slides() {
         left: 0,
       }}
     >
+      <AudioPlayer></AudioPlayer>
       <SwiperSlide><SlideCon /></SwiperSlide>
       <SwiperSlide><SlideCon2 /></SwiperSlide>
       <SwiperSlide>Slide 3</SwiperSlide>
