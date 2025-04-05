@@ -6,6 +6,10 @@
   font-family: var(--font-inter), sans-serif;
 }
 
+:focus {
+  outline: none !important;
+}
+
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -81,7 +85,7 @@
 
 }
 
-@media (min-width: 1024px) and (max-width: 1399px) {
+@media (min-width: 1024px) and (max-width: 1024px) {
   .cosik {
     rotate: 270deg !important;
     bottom: 260px !important;
@@ -122,27 +126,4 @@
   }
 
 
-}
-
-@media (min-width: 1024px) and (max-height: 1024px) {
-  .cosik {
-    left: 60px !important;
-    bottom: 150px !important;
-    max-width: 600px !important;
-  }
-
-  .header {
-    font-size: 62px !important;
-  }
-
-  .header2 {
-    padding-top: 6.2rem !important;
-    font-size: 52px !important;
-  }
-
-
-  .cosik h1,
-  .cosik p {
-    font-size: 14px !important;
-  }
 }
