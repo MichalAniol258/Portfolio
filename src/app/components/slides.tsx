@@ -14,7 +14,7 @@ export default function Slides() {
     <Swiper
       direction="vertical" // domyślnie pionowo
       breakpoints={{
-        768: {
+        1024: {
           direction: 'horizontal', // od szerokości 768px ustawiamy poziomo
         },
       }}
