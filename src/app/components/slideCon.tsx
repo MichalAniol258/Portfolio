@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function SlideCon() {
   return (
-    <div className="flex min-h-screen bg-gray-950">
+    <div className="flex min-h-[100dvh] bg-gray-950">
       {/* Sekcja tekstowa */}
       <div className="flex text-gray-400 items-center pl-[6rem] pt-[6rem] max-md:pl-[2rem] max-md:pt-[10rem] max-md:items-start  headerset  w-1/2">
         <h1 className="text-8xl max-md:text-6xl header w-[0px] font-[850]  m-[2rem] mt-[200px] rotate-270 whitespace-nowrap ">MichalAniol</h1>
