@@ -10,7 +10,7 @@ export default function SlideCon() {
           PORTFOLIO
         </p>
       </div>
-      <div style={{ marginBottom: "env(safe-area-inset-bottom)" }} className="flex flex-col justify-end  items-start text-gray-400 max-md:rotate-270  cosik max-md:bottom-30 max-md:max-w-[400px]  max-w-[600px]  max-md:right-0 max-md:pl-[0] max-md:pb-[8rem]   absolute bottom-0 left-0 pl-[6rem] pb-[6rem] ">
+      <div style={{ bottom: "env(safe-area-inset-bottom)" }} className=" flex flex-col justify-end  items-start text-gray-400 max-md:rotate-270  cosik max-md:bottom-30 max-md:max-w-[400px]  max-w-[600px]  max-md:right-0 max-md:pl-[0] max-md:pb-[8rem]   absolute bottom-0 left-0 pl-[6rem] pb-[6rem] ">
         <h1 className="text-sm  font-light max-h-600:text-red-500   leading-relaxed">
           MichalAniol
         </h1>
