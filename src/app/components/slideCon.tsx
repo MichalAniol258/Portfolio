@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 
 export default function SlideCon() {
   return (
@@ -25,17 +25,20 @@ export default function SlideCon() {
         {/* Sekcja obrazu z nakładką */}
         <div className="relative w-1/2">
           <div className="absolute inset-0 bg-black"></div>
-          <Image
-            src="/sigma.gif"
-            alt="Sigma"
-            layout="fill"
-            className="object-cover opacity-50"
-            quality={100}
+
+          <video
+            src="/sigma.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
+            controls={false}
+            className="absolute inset-0 w-full h-full object-cover opacity-40"
           />
         </div>
 
       </div>
-      <div className="absolute w-screen h-screen inset-0 bg-gradient-to-t from-[#1f2937] to-[#2d3748]  opacity-50 z-1 pointer-events-none"></div>
+      <div className="absolute w-screen h-screen inset-0 bg-gradient-to-t from-[#1f2937] to-[#2d3748]  opacity-40 z-1 pointer-events-none"></div>
     </>
   );
 }

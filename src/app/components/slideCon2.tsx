@@ -17,7 +17,16 @@ export default function SlideCon2({ cardData }: { cardData: Card[] }) {
       <div className="relative h-screen w-screen">
 
         {/* Tło z GIF-em */}
-        <div className="absolute inset-0 bg-[url('/sigma.gif')] opacity-25 bg-cover bg-center z-0"></div>
+
+        <video
+          src="/sigma.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          controls={false}
+          className="absolute inset-0 w-full h-full object-cover opacity-20 bg-cover bg-center -z-1"
+        />
 
         {/* Nagłówek z gradientem i przyciągającą typografią */}
         <div className="flex flex-col max-md:justify-start items-start text-gray-100 font-[700] md:pt-[4rem] md:pl-[6rem]">
@@ -42,7 +51,7 @@ export default function SlideCon2({ cardData }: { cardData: Card[] }) {
         </div>
 
       </div>
-      <div className="absolute w-screen h-screen inset-0 bg-gradient-to-t from-[#1f2937] to-[#2d3748]  opacity-50 z-1 pointer-events-none"></div>
+      <div className="absolute w-screen h-screen inset-0 bg-gradient-to-t from-[#1f2937] to-[#2d3748]  opacity-40 z-1 pointer-events-none"></div>
 
     </>
   );
