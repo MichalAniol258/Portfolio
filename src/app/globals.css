@@ -53,7 +53,7 @@
 @media (min-width: 768px) and (max-width: 1399px) {
   .cosik {
     rotate: 270deg !important;
-    bottom: 150px !important;
+    bottom: 200px !important;
     left: 60px;
   }
 
@@ -104,7 +104,7 @@
 @media (min-width: 1024px) and (max-width: 1024px) {
   .cosik {
     rotate: 270deg !important;
-    bottom: 260px !important;
+    bottom: 350px !important;
     max-width: 900px !important;
     left: -50px;
   }
