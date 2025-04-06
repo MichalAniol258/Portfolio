@@ -25,7 +25,7 @@ export default function SlideCon2({ cardData }: { cardData: Card[] }) {
           loop
           playsInline
           controls={false}
-          className="absolute inset-0 w-full h-full object-cover opacity-20 bg-cover bg-center -z-1"
+          className="absolute inset-0 w-full h-full object-cover opacity-20 bg-cover bg-center z-1"
         />
 
         {/* Nagłówek z gradientem i przyciągającą typografią */}
@@ -40,11 +40,11 @@ export default function SlideCon2({ cardData }: { cardData: Card[] }) {
         </div>
 
         {/* Sekcja slidera i kart */}
-        <div className="lg:hidden w-full h-full flex items-start justify-center mt-16 z-1">
+        <div className="lg:hidden w-full h-full flex items-start justify-center mt-16">
           <SliderCards cardData={cardData}></SliderCards>
         </div>
 
-        <div className="max-lg:hidden w-full h-full flex items-start justify-center mt-16  gap-24 z-1">
+        <div className="max-lg:hidden w-full h-full flex items-start justify-center mt-16  gap-24">
           {cardData.map((card, index) => (
             <Card key={index} h1={card.h1} p={card.p} img={card.img}></Card>
           ))}
