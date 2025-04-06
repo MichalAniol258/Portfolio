@@ -35,7 +35,7 @@ export default function SlideCon() {
         </div>
 
       </div>
-      <div className="absolute w-screen h-screen inset-0 bg-gradient-to-t from-[#1f2937] via-[#2d3748] to-transparent  opacity-50 z-1 pointer-events-none"></div>
+      <div className="absolute w-screen h-screen inset-0 bg-gradient-to-t from-[#1f2937] to-[#2d3748]  opacity-50 z-1 pointer-events-none"></div>
     </>
   );
 }

@@ -81,7 +81,7 @@ const AudioPlayer: React.FC = () => {
 
             <button ref={buttonRef} className='absolute top-0 !fill-red-500 max-md:right-0 md:left-0 z-1 opacity-60  cursor-pointer'>{!isPlaying ? <Play /> : <Pause />}</button >
             <audio ref={audioRef} src="/sound.mp3" />
-     
+
         </>
     );
 };
