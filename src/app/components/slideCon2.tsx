@@ -42,7 +42,7 @@ export default function SlideCon2({ cardData }: { cardData: Card[] }) {
         </div>
 
       </div>
-
+      <div className="absolute w-screen h-screen inset-0 bg-gradient-to-t from-[#1f2937] via-[#2d3748] to-transparent  opacity-50 z-1 pointer-events-none"></div>
 
     </>
   );

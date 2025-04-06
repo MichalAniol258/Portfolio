@@ -81,7 +81,7 @@ const AudioPlayer: React.FC = () => {
 
             <button ref={buttonRef} className='absolute top-0 !fill-red-500 max-md:right-0 md:left-0 z-1 opacity-60  cursor-pointer'>{!isPlaying ? <Play /> : <Pause />}</button >
             <audio ref={audioRef} src="/sound.mp3" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#1f2937] via-[#2d3748] to-transparent  opacity-50 z-1 pointer-events-none"></div>
+     
         </>
     );
 };
