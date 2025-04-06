@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 
 export function Play() {
     return (
-        <svg className='m-2 text-blue-200' width="30" height="30" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+        <svg className='m-2 text-yellow-200' width="30" height="30" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
             <path d="M19.4357 13.9174C20.8659 13.0392 20.8659 10.9608 19.4357 10.0826L9.55234 4.01389C8.05317 3.09335 6.125 4.17205 6.125 5.93128L6.125 18.0688C6.125 19.828 8.05317 20.9067 9.55234 19.9861L19.4357 13.9174Z" fill="currentColor" />
         </svg>
 
@@ -79,8 +79,9 @@ const AudioPlayer: React.FC = () => {
     return (
         <>
 
-            <button ref={buttonRef} className='absolute top-0 !fill-red-500 max-md:right-0 md:left-0 z-1000 cursor-pointer'>{!isPlaying ? <Play /> : <Pause />}</button >
+            <button ref={buttonRef} className='absolute top-0 !fill-red-500 max-md:right-0 md:left-0 z-1 opacity-60  cursor-pointer'>{!isPlaying ? <Play /> : <Pause />}</button >
             <audio ref={audioRef} src="/sound.mp3" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#1f2937] via-[#2d3748] to-transparent opacity-30 z-1 pointer-events-none"></div>
         </>
     );
 };
