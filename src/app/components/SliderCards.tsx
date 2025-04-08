@@ -13,6 +13,9 @@ interface Card {
     h1: string;
     p: string;
     img: string;
+    href: string
+    text: string
+    lg: string[]
 }
 
 export default function SliderCards({ cardData }: { cardData: Card[] }) {
@@ -36,7 +39,7 @@ export default function SliderCards({ cardData }: { cardData: Card[] }) {
             >
                 {cardData.map((card, index) => (
                     <SwiperSlide key={index}>
-                        <Card h1={card.h1} p={card.p} img={card.img} />
+                        <Card key={index} h1={card.h1} p={card.p} img={card.img} href={card.href} lg={card.lg} text={card.text}></Card>
                     </SwiperSlide>
                 ))}
 

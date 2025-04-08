@@ -44,6 +44,75 @@
 
 
 
+.text-animation {
+
+  animation: moveLeftRight 3s infinite !important;
+  /* Czas trwania animacji, powtarzanie w nieskończoność */
+}
+
+/* Definicja animacji */
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(0);
+    /* Tekst zaczyna w normalnej pozycji */
+  }
+
+  50% {
+    transform: translateX(-10px);
+    /* Tekst przesuwa się w lewo */
+  }
+
+  100% {
+    transform: translateX(0);
+    /* Tekst wraca do pierwotnej pozycji */
+  }
+}
+
+.relative {
+  position: relative;
+  /* Umożliwia pozycjonowanie absolutne wewnątrz tego kontenera */
+}
+
+.hover-text {
+  position: absolute;
+  top: -20px;
+  /* Wysunięcie tekstu powyżej karty */
+  left: 0;
+  right: 0;
+  opacity: 0;
+  /* Początkowo tekst jest niewidoczny */
+  transition: opacity 0.3s ease-in-out;
+  /* Animacja zmiany przezroczystości */
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Efekt najechania */
+.relative:hover .hover-text {
+  opacity: 1;
+  /* Pokazuje tekst po najechaniu */
+}
+
+
+
+
+/* Definicja animacji */
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(0);
+    /* Tekst zaczyna w normalnej pozycji */
+  }
+
+  50% {
+    transform: translateX(-10px);
+    /* Tekst przesuwa się w lewo */
+  }
+
+  100% {
+    transform: translateX(0);
+    /* Tekst wraca do pierwotnej pozycji */
+  }
+}
 
 
 
@@ -132,6 +201,7 @@
     rotate: 270deg !important;
   }
 }
+
 
 
 @media (min-width: 500px) and (max-width: 720px) {

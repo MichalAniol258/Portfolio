@@ -1,8 +1,8 @@
-import { withNextVideo } from "next-video/process";
 import type { NextConfig } from "next";
 
-
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig: NextConfig = {
+    // your other Next.js configurations go here
+};
 
-export default withNextVideo(nextConfig);
+export default nextConfig;

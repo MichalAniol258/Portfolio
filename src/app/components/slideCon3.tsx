@@ -8,13 +8,13 @@ interface Card {
   p: string;
   img: string;
   href: string
-  text: string;
+  text: string
   lg: string[]
 }
 
 
 
-export default function SlideCon2({ cardData }: { cardData: Card[] }) {
+export default function SlideCon3({ cardData }: { cardData: Card[] }) {
   return (
     <>
       <div className="relative h-screen w-screen">
@@ -34,11 +34,11 @@ export default function SlideCon2({ cardData }: { cardData: Card[] }) {
         {/* Nagłówek z gradientem i przyciągającą typografią */}
         <div className="flex flex-col max-md:justify-start items-start text-gray-100 font-[700] md:pt-[4rem] md:pl-[6rem]">
           <h1 className='md:text-8xl max-md:text-5xl max-md:p-[1rem] bg-gradient-to-l from-[#bfdbfe] to-[#fef08a] bg-clip-text text-transparent tracking-widest'>
-            BIG PROJECTS
+            SMALL PROJECTS
           </h1>
 
           <p className="text-sm text-gray-400 font-light max-md:pl-[1rem] mt-4 leading-relaxed max-w-lg text-start">
-            Here, I present projects that, in my view, deserve attention. Each reflects my commitment to quality and thoughtful design.
+            A collection of personal projects crafted in my spare time — a space for exploration, learning, and bringing ideas to life.
           </p>
         </div>
 
