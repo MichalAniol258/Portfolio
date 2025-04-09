@@ -1,5 +1,5 @@
 "use client"
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y, Mousewheel } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SlideCon from './slideCon';
 import SlideCon2 from './slideCon2';
@@ -71,17 +71,22 @@ const smallProjects = [
 export default function Slides() {
   return (
     <Swiper
-      direction="vertical" // domyślnie pionowo
+      direction="vertical"
       breakpoints={{
         1024: {
-          direction: 'horizontal', // od szerokości 768px ustawiamy poziomo
+          direction: 'horizontal',
         },
       }}
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Navigation, Pagination, Scrollbar, A11y, Mousewheel]}
       spaceBetween={0}
       slidesPerView={1}
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
+      mousewheel={{
+        forceToAxis: false,
+        sensitivity: 1,
+        releaseOnEdges: true,
+      }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
       style={{
@@ -92,12 +97,12 @@ export default function Slides() {
         left: 0,
       }}
     >
-      <AudioPlayer></AudioPlayer>
+      <AudioPlayer />
       <SwiperSlide><SlideCon /></SwiperSlide>
       <SwiperSlide><SlideCon2 cardData={cardData} /></SwiperSlide>
       <SwiperSlide><SlideCon3 cardData={smallProjects} /></SwiperSlide>
       <SwiperSlide><SlideCon4 /></SwiperSlide>
-      {/* ... */}
     </Swiper>
+
   );
 };
