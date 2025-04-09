@@ -1,6 +1,6 @@
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
-import { useMediaQuery } from 'react-responsive';
+
 
 export function Play() {
     return (
