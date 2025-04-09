@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import SlideCon3 from './slideCon3';
+import SlideCon4 from './slideCon4';
 
 
 const cardData = [
@@ -25,8 +26,8 @@ const cardData = [
     h1: 'AyoList',
     p: 'AyoList is a sleek app that lets you search for, organize, and track your anime and manga watchlist with ease.',
     img: '/2.png',
-    href: 'https://www.ar.sikorka.net/',
-    text: 'GitHub',
+    href: '#',
+    text: 'Unfinished Yet',
     lg: ['Next.js', 'AniList API',]
   },
   {
@@ -61,7 +62,7 @@ const smallProjects = [
     h1: 'AyoBank',
     p: 'A secure app for real-time balance and transaction insights.',
     img: '/6.png',
-    href: '',
+    href: 'https://github.com/MichalAniol258/AyoBank-gocardless',
     text: 'GitHub',
     lg: ['GoCardless API']
   }
@@ -95,7 +96,7 @@ export default function Slides() {
       <SwiperSlide><SlideCon /></SwiperSlide>
       <SwiperSlide><SlideCon2 cardData={cardData} /></SwiperSlide>
       <SwiperSlide><SlideCon3 cardData={smallProjects} /></SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
+      <SwiperSlide><SlideCon4 /></SwiperSlide>
       {/* ... */}
     </Swiper>
   );

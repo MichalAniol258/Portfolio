@@ -33,12 +33,12 @@ export default function SlideCon() {
             loop
             playsInline
             controls={false}
-            className="absolute inset-0 w-full h-full object-cover opacity-20"
+            className="absolute inset-0 w-full h-full object-cover opacity-20 z-1"
           />
         </div>
 
       </div>
-      <div className="absolute w-screen h-screen inset-0 bg-gradient-to-t from-[#1f2937] to-[#2d3748]  opacity-35 z-1 pointer-events-none"></div>
+      <div className="absolute w-screen h-screen inset-0 bg-gradient-to-t from-[#1f2937] to-[#2d3748]  opacity-20 z-1 pointer-events-none"></div>
     </>
   );
 }

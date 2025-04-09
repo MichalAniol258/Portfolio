@@ -31,11 +31,11 @@ export default function SliderCards({ cardData }: { cardData: Card[] }) {
                     stretch: 0,
                     depth: 100,
                     modifier: 1,
-                    slideShadows: true,
+                    slideShadows: false,
                 }}
                 pagination={false}
                 modules={[EffectCoverflow, Pagination]}
-                className="max-w-xs w-8/12 px-4 "
+                className="max-w-full"
             >
                 {cardData.map((card, index) => (
                     <SwiperSlide key={index}>

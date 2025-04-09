@@ -47,14 +47,15 @@ export default function SlideCon3({ cardData }: { cardData: Card[] }) {
           <SliderCards cardData={cardData}></SliderCards>
         </div>
 
-        <div className="max-lg:hidden w-full h-full flex items-start justify-center mt-16  gap-24">
+
+        <div className="max-lg:hidden w-full h-full flex items-start justify-center mt-16  gap-24 ">
           {cardData.map((card, index) => (
             <Card key={index} h1={card.h1} p={card.p} img={card.img} href={card.href} lg={card.lg} text={card.text}></Card>
           ))}
         </div>
 
       </div>
-      <div className="absolute w-screen h-screen inset-0 bg-gradient-to-t from-[#1f2937] to-[#2d3748]  opacity-35 z-1 pointer-events-none"></div>
+      <div className="absolute w-screen h-screen inset-0 bg-gradient-to-t from-[#1f2937] to-[#2d3748]  opacity-20 z-1 pointer-events-none"></div>
 
     </>
   );
