@@ -42,14 +42,14 @@ export default function SlideCon4() {
               href="#"
               target="_blank"
             >
-              Twitter
+              Twitter(not yet)
             </Link>
             <Link
               className="bg-gradient-to-r from-[#4B6A92] to-[#2A3E57] text-white font-bold py-2 px-6 rounded-lg shadow-md hover:scale-105 transition transform text-center"
               href="#"
               target="_blank"
             >
-              LinkedIn
+              LinkedIn(not yet)
             </Link>
           </div>
 

@@ -15,10 +15,10 @@ import SlideCon4 from './slideCon4';
 
 const cardData = [
   {
-    h1: 'PokeNext',
-    p: 'PokeNext is a Pokedex powered by Gemini AI and built with Next.js, offering a clean and intuitive way to explore Pokémon data.',
+    h1: 'Nextdex',
+    p: 'Nextdex is a Pokedex powered by Gemini AI and built with Next.js, offering a clean and intuitive way to explore Pokémon data.',
     img: '/1.png',
-    href: '',
+    href: 'https://github.com/MichalAniol258/Nextdex',
     text: 'GitHub',
     lg: ['Next.js', 'Gemini AI', 'FireBase']
   },
