@@ -29,7 +29,7 @@ export default function Card({
                     alt="Card image"
                 />
                 {/* Kontener dla tekstu pojawiającego się na hover */}
-                <div className="absolute top-2 flex justify-center p-2 text-center w-full gap-3  opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-1">
+                <div className="absolute top-2 flex justify-center p-2 text-center w-full gap-3  opacity-0 max-lg:opacity-100  group-hover:opacity-100  transition-opacity duration-300 z-1">
                     {lg.map((tech, index) => (
                         <p key={index} className="bg-gray-950 text-red-200 p-2 rounded-xs">{tech}</p>
                     )

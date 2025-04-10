@@ -35,7 +35,7 @@ export default function SliderCards({ cardData }: { cardData: Card[] }) {
                 }}
                 pagination={false}
                 modules={[EffectCoverflow, Pagination]}
-                className="max-w-full"
+                className="w-full"
             >
                 {cardData.map((card, index) => (
                     <SwiperSlide key={index}>

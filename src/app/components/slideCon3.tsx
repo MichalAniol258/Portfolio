@@ -48,6 +48,7 @@ export default function SlideCon3({ cardData }: { cardData: Card[] }) {
         </div>
 
 
+
         <div className="max-lg:hidden w-full h-full flex items-start justify-center mt-16  gap-24 ">
           {cardData.map((card, index) => (
             <Card key={index} h1={card.h1} p={card.p} img={card.img} href={card.href} lg={card.lg} text={card.text}></Card>

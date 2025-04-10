@@ -64,7 +64,7 @@ const smallProjects = [
     img: '/6.png',
     href: 'https://github.com/MichalAniol258/AyoBank-gocardless',
     text: 'GitHub',
-    lg: ['GoCardless API']
+    lg: ['Next.js', 'GoCardless API']
   }
 ];
 
@@ -77,10 +77,10 @@ export default function Slides() {
           direction: 'horizontal',
         },
       }}
-      modules={[Navigation, Pagination, Scrollbar, A11y, Mousewheel]}
+      modules={[Navigation, Scrollbar, A11y, Mousewheel]}
       spaceBetween={0}
       slidesPerView={1}
-      pagination={{ clickable: true }}
+
       scrollbar={{ draggable: true }}
       mousewheel={{
         forceToAxis: false,
