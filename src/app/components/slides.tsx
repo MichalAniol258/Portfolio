@@ -1,5 +1,5 @@
 "use client"
-import { Navigation, Pagination, Scrollbar, A11y, Mousewheel } from 'swiper/modules';
+import { Navigation, Scrollbar, A11y, Mousewheel } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SlideCon from './slideCon';
 import SlideCon2 from './slideCon2';
