@@ -26,15 +26,15 @@ const cardData = [
     h1: 'AyoList',
     p: 'AyoList is a sleek app that lets you search for, organize, and track your anime and manga watchlist with ease.',
     img: '/2.png',
-    href: '#',
-    text: 'Unfinished Yet',
+    href: 'https://github.com/MichalAniol258/AyoList',
+    text: 'GitHub',
     lg: ['Next.js', 'AniList API',]
   },
   {
     h1: 'Untitled 2D Game',
     p: ' It is a 2D game still in development, crafted with passion in GameMaker Studio.',
     img: '/3.png',
-    href: '#',
+    href: '',
     text: 'Private Repository',
     lg: ['GMS 2', 'GML',]
   },

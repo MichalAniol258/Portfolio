@@ -39,14 +39,14 @@ export default function SlideCon4() {
             </Link>
             <Link
               className="bg-gradient-to-r from-[#1DA1F2] text-nowrap to-[#0076B6] text-white font-bold py-2 px-6 rounded-lg shadow-md hover:scale-105 transition transform text-center"
-              href="#"
+              href=""
               target="_blank"
             >
               Twitter(not yet)
             </Link>
             <Link
               className="bg-gradient-to-r from-[#4B6A92] text-nowrap to-[#2A3E57] text-white font-bold py-2 px-6 rounded-lg shadow-md hover:scale-105 transition transform text-center"
-              href="#"
+              href=""
               target="_blank"
             >
               LinkedIn(not yet)
