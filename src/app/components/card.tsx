@@ -41,7 +41,7 @@ export default function Card({
                     <p className="text-gray-300 text-sm max-lg:text-sm max-xl:text-xs flex-grow">{p}</p>
 
 
-                    <Link className="mt-4 inline-block px-4 py-2 text-center bg-yellow-200 text-gray-950 text-sm max-xl:text-xs max-lg:text-sm text-nowrap font-medium rounded-lg cursor-pointer hover:bg-blue-200 transition-colors" href={href}>{text}</Link>
+                    <Link className="mt-4 inline-block px-4 py-2 text-center bg-yellow-200 text-gray-950 text-sm max-xl:text-xs max-lg:text-sm text-nowrap font-medium rounded-lg cursor-pointer hover:bg-blue-200 transition-colors" target="_blank" href={href}>{text}</Link>
 
                 </div>
             </div>
