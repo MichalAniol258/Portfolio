@@ -57,7 +57,7 @@ export default function SlideCon4() {
 
 
 
-          <div className="hidden lg:flex items-center justify-center mt-16 gap-6 opacity-85 z-1">
+          <div className="hidden lg:flex items-center justify-center mt-4 gap-6 opacity-85 z-1">
             <span className="text-xl text-gray-400">More about my projects</span>
             <Link className="z-1 bg-gradient-to-r from-[#fef08a] to-[#60a5fa] text-white font-bold py-2 px-6 rounded-lg shadow-md hover:scale-105 transition transform" href="https://github.com/MichalAniol258" target="_blank">
 

@@ -43,7 +43,7 @@ export default function SlideCon3({ cardData }: { cardData: Card[] }) {
         </div>
 
         {/* Sekcja slidera i kart */}
-        <div className="lg:hidden w-full h-full flex items-start justify-center mt-16">
+        <div className="lg:hidden w-full h-full flex items-start justify-center mt-4">
           <SliderCards cardData={cardData}></SliderCards>
         </div>
 
